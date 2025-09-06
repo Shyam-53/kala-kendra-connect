@@ -8,11 +8,11 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   useEffect(() => {
-    document.title = "GAVBAZAAR - Indian Local Marketplace for Authentic Handcrafts";
+    document.title = "ArtisanBazaar - Indian Local Marketplace for Authentic Handcrafts";
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'GAVBAZAAR - Discover authentic handcrafted treasures from local Indian artisans. Shop pottery, textiles, jewelry and more directly from skilled craftsmen. Support local heritage.');
+      metaDescription.setAttribute('content', 'Discover authentic handcrafted treasures from local Indian artisans. Shop pottery, textiles, jewelry and more directly from skilled craftsmen. Support local heritage.');
     }
   }, []);
 
