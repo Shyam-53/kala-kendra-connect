@@ -118,3 +118,25 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .hover-lift {
+    @apply transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl;
+  }
+  
+  .hover-glow {
+    @apply transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20;
+  }
+  
+  .interactive-card {
+    @apply transform transition-all duration-300 hover:scale-105 hover:shadow-warm cursor-pointer;
+  }
+  
+  .pulse-glow {
+    @apply animate-pulse shadow-glow;
+  }
+  
+  .text-shimmer {
+    @apply bg-gradient-to-r from-gold via-saffron to-gold bg-clip-text text-transparent animate-pulse;
+  }
+}

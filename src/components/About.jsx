@@ -6,9 +6,9 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 animate-slide-in-left">
               Empowering Local Artisans,
-              <span className="text-primary block">Preserving Heritage</span>
+              <span className="text-primary block hover:text-shimmer transition-all duration-300">Preserving Heritage</span>
             </h2>
             
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
@@ -43,33 +43,33 @@ const About = () => {
               </div>
             </div>
             
-            <Button variant="marketplace" size="lg" className="text-lg px-8 py-3">
+            <Button variant="marketplace" size="lg" className="text-lg px-8 py-3 hover-lift hover:animate-glow-pulse">
               Learn More About Us
             </Button>
           </div>
           
-          <div className="relative">
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
+          <div className="relative animate-slide-in-right">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover-glow interactive-card">
               <div className="text-center mb-6">
-                <div className="text-4xl font-bold text-primary mb-2">98%</div>
+                <div className="text-4xl font-bold text-primary mb-2 animate-bounce-gentle hover:scale-125 transition-transform duration-300 cursor-pointer">98%</div>
                 <p className="text-muted-foreground">Customer Satisfaction</p>
               </div>
               
               <div className="grid grid-cols-2 gap-6 text-center">
-                <div>
-                  <div className="text-2xl font-bold text-terracotta mb-1">15+</div>
+                <div className="hover-lift cursor-pointer">
+                  <div className="text-2xl font-bold text-terracotta mb-1 animate-bounce-gentle">15+</div>
                   <p className="text-sm text-muted-foreground">States Covered</p>
                 </div>
-                <div>
-                  <div className="text-2xl font-bold text-saffron mb-1">5K+</div>
+                <div className="hover-lift cursor-pointer">
+                  <div className="text-2xl font-bold text-saffron mb-1 animate-bounce-gentle" style={{animationDelay: '0.5s'}}>5K+</div>
                   <p className="text-sm text-muted-foreground">Happy Customers</p>
                 </div>
-                <div>
-                  <div className="text-2xl font-bold text-gold mb-1">24/7</div>
+                <div className="hover-lift cursor-pointer">
+                  <div className="text-2xl font-bold text-gold mb-1 animate-bounce-gentle" style={{animationDelay: '1s'}}>24/7</div>
                   <p className="text-sm text-muted-foreground">Support</p>
                 </div>
-                <div>
-                  <div className="text-2xl font-bold text-warm-red mb-1">100%</div>
+                <div className="hover-lift cursor-pointer">
+                  <div className="text-2xl font-bold text-warm-red mb-1 animate-bounce-gentle" style={{animationDelay: '1.5s'}}>100%</div>
                   <p className="text-sm text-muted-foreground">Authentic</p>
                 </div>
               </div>
