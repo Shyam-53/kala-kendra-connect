@@ -16,29 +16,29 @@ const CallToAction = () => {
         </div>
         
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          <Card className="p-8 bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20 transition-all duration-300">
+          <Card className="p-8 bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/30 transition-all duration-500 interactive-card hover:animate-glow-pulse animate-slide-in-left">
             <div className="text-center">
-              <div className="text-4xl mb-4">🎨</div>
-              <h3 className="text-2xl font-bold mb-4">For Artisans</h3>
+              <div className="text-4xl mb-4 animate-bounce-gentle hover:scale-125 transition-transform duration-300 cursor-pointer">🎨</div>
+              <h3 className="text-2xl font-bold mb-4 hover:text-shimmer transition-all duration-300">For Artisans</h3>
               <p className="mb-6 opacity-90">
                 Showcase your craft to a wider audience. Get fair prices for your handmade creations 
                 and connect with customers who value authentic art.
               </p>
-              <Button variant="elegant" size="lg" className="w-full">
+              <Button variant="elegant" size="lg" className="w-full hover-lift">
                 Start Selling
               </Button>
             </div>
           </Card>
           
-          <Card className="p-8 bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20 transition-all duration-300">
+          <Card className="p-8 bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/30 transition-all duration-500 interactive-card hover:animate-glow-pulse animate-slide-in-right">
             <div className="text-center">
-              <div className="text-4xl mb-4">🛍️</div>
-              <h3 className="text-2xl font-bold mb-4">For Customers</h3>
+              <div className="text-4xl mb-4 animate-bounce-gentle hover:scale-125 transition-transform duration-300 cursor-pointer" style={{animationDelay: '0.5s'}}>🛍️</div>
+              <h3 className="text-2xl font-bold mb-4 hover:text-shimmer transition-all duration-300">For Customers</h3>
               <p className="mb-6 opacity-90">
                 Discover unique handcrafted items that tell a story. Support local artisans 
                 and own pieces that reflect India's rich cultural heritage.
               </p>
-              <Button variant="hero" size="lg" className="w-full">
+              <Button variant="hero" size="lg" className="w-full hover-lift">
                 Start Shopping
               </Button>
             </div>

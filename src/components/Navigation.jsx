@@ -11,31 +11,31 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="text-2xl">🎨</div>
-            <span className="text-xl font-bold text-primary">ArtisanBazaar</span>
+            <span className="text-xl font-bold text-primary hover:text-saffron transition-colors duration-300">GAVBAZAAR</span>
           </div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a href="#home" className="text-foreground hover:text-primary transition-all duration-300 font-medium relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full">
               Home
             </a>
-            <a href="#categories" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a href="#categories" className="text-foreground hover:text-primary transition-all duration-300 font-medium relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full">
               Categories
             </a>
-            <a href="#artisans" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a href="#artisans" className="text-foreground hover:text-primary transition-all duration-300 font-medium relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full">
               Artisans
             </a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a href="#about" className="text-foreground hover:text-primary transition-all duration-300 font-medium relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all after:duration-300 hover:after:w-full">
               About
             </a>
           </div>
           
           {/* Action Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" className="font-medium">
+            <Button variant="ghost" className="font-medium hover-lift">
               Sign In
             </Button>
-            <Button variant="marketplace" className="font-medium">
+            <Button variant="marketplace" className="font-medium hover-glow">
               Join Us
             </Button>
           </div>
